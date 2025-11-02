@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For Divya - My Love</title>
+    <title>TEDDY</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -65,7 +65,7 @@
 </head>
 <body>
     <div class="floating-hearts" id="hearts"></div>
-    <div class="text">Click on the teddy! 🧸</div>
+    <div class="text">Click on the teddy! </div>
     <div class="teddy" id="teddy">🧸</div> <!-- Cute teddy bear emoji -->
 
     <script>
@@ -76,7 +76,7 @@
             heart.className = 'heart-particle';
             heart.textContent = '❤️';
             heart.style.left = Math.random() * 100 + '%';
-            heart.style.animationDelay = Math.random() * 6 + 's';
+            heart.style.animationDelay = Math.random() * 20 + 's';
             heartsContainer.appendChild(heart);
             setTimeout(() => heart.remove(), 6000);
         }
